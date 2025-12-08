@@ -9,9 +9,7 @@ async function fetchLandmark(){
     .then((data) => {
         
         displayLandmark(data[0]);
-        }
-         
-         );
+        });
 }
      
     
@@ -19,9 +17,7 @@ async function fetchLandmark(){
 
 
 
-function displayLandmark(data) {
-    
-    
+function displayLandmark(data) {  
         
     const landmarkDisplay = document.querySelector("#landmark");
   
