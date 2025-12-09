@@ -56,9 +56,9 @@ text-align: center; font-weight: bold;
     margin: 20px; font-family: cochin;
 }
 .landmark-image { 
-justify-content: center; width: 99%;
+justify-content: center; width: auto;
 height: 200px; margin: 20px;
-    display: flex;
+display: flex;
 }
 .location{
     text-align-last: center;display: block;
