@@ -30,7 +30,7 @@ nav {
 .grid-box {
     display: flex; justify-content:space-around;
     height: auto;
-    width: 100px; 
+    width: 200px; 
 }
 
 .content-box {
