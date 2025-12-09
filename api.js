@@ -32,7 +32,7 @@ function displayLandmark(data) {
                         
                     </li>
                     <li>
-                        <p><a href=${data.url_report}">Designation Report</p>
+                        <p><a href=${data.url_report}>Designation Report</p>
                     </li>
                 </ul>  
             </div>`;
