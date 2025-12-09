@@ -29,8 +29,8 @@ nav {
 }
 .grid-box {
     display: flex; justify-content:space-around;
-    align-items: center; height: 100px;
-    width: 100px; 
+    height: 20px;
+    width: 70px; 
 }
 
 .content-box {
