@@ -1,6 +1,6 @@
+//Code inspired by Modern JavaScript from The Beginning [Second Edition] - Second Edition by Brad Traversy//
+
 //fetching from an API
-
-
 
 function fetchLandmark(){
 
@@ -11,11 +11,6 @@ function fetchLandmark(){
         displayLandmark(data[0]);
         });
 }
-     
-    
-       
-
-
 
 function displayLandmark(data) {  
         
