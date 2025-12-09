@@ -46,24 +46,64 @@ width: 100%; margin: 20px; justify-content: center;
 padding: 10px; font-weight: bold;
 }
 
-.quiz {
-float: bottom; justify-content: center;
-width: 100%;
-display: flex;
+* {
+    box-sizing: border-box;
 }
-.quiz-box {
-width: 100%; background-color: grey;
-border: 2px solid; padding: 20px; 
-margin: 40px; 
-display: flex; justify-content: center;
+
+.quizcontainer {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, .1);
+    width: 600px;
+    overflow: hidden;
 }
+
+.quizheader {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ ul {
+    list-style-type: none;
+    padding: 0;
+ }
+
+ ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+ }
+
+ ul li label {
+    cursor: pointer;
+ }
+
+button {
+    background-color: rgb(195, 155, 233);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: 1.3rem;
+} 
+
+button:hover {
+    background-color: #732d91;
+}
+
 .landmark-quote{
 text-align: center; font-weight: bold; 
     margin: 20px;
 }
 .landmark-title { 
     text-align: center; font-weight: bolder;
-    width: 100%; padding: 20px; color: steelblue;
+    width: 100%; padding: 20px; color: #5894c6; 
     margin: 20px; font-family: cochin;
 }
 .landmark-image { 
@@ -73,7 +113,7 @@ height: 200px; margin: 20px;
 }
 .location{
     text-align-last: center;display: block;
-    margin: 20px; background-color: steelblue;
+    margin: 20px;
     border:groove 1px; border-radius: 5px;
 }
 .about{
@@ -82,18 +122,19 @@ font-weight: bolder; flex-direction: column;
 }
 .landmark-about {
 text-align:center; display: block; 
-justify-content: center; margin: 20px; 
+justify-content: center; margin: 20px;
 }
 .timeline {
  justify-content: center; display: block;
 text-align: left; height: auto;  
-background-color: steelblue;  margin: 20px;
+  margin: 20px; background-color: #5894c6;
 }
 .interactive {
     justify-content: center;display: block;
     margin: 20px; font-size: large; 
     text-align: center; flex: 1; padding: 20px;
-    border: solid 2px steelblue; border-radius: 5px;
+    border: solid 2px; border-radius: 5px;
+    border-color: #5894c6;
 }
 .map {
     justify-content: center; 
