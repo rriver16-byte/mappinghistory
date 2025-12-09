@@ -15,7 +15,7 @@ header {
 
 nav {
     display:flex; justify-content: center;
-    gap: 40px; border: solid 2px; 
+    gap:40px; border: solid 2px; 
     border-radius: 5px;
     font-size: 14px;
     margin: 20px auto;
@@ -28,21 +28,21 @@ nav {
     align-content: center;
 }
 .grid-box {
-    display: flex; justify-content:space-evenly;
+    display: flex; justify-content:space-around;
     align-items: center; height: 100px;
     width: 100px; 
 }
 
 .content-box {
-    width: 90%; height: auto; 
+ height: auto; 
     border: solid 2px; border-radius: 5px;
     margin: 40px; align-content: center;
     display: flex;
 }
 .quiz-title {
-background-color:rgba(87, 172, 143, 0.84);
+background-color:#57ac8fd6;
 color: white; text-align: center; 
-width: 100%; margin: 20px; justify-content: center;
+margin: 20px; justify-content: center;
 padding: 10px; font-weight: bold;
 }
 
@@ -95,3 +95,5 @@ text-align: left; height: auto;
     display: flex; 
     justify-content: space-around;  
 }
+
+.video {align-content: center; margin:20px;}
