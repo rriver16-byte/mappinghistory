@@ -104,6 +104,11 @@ text-align: left; height: auto;
     box-sizing: border-box;
 }
 
+.grid-box-js {
+    display: flex; justify-content:space-around;
+    width: auto; 
+}
+
 .quizcontainer {
     background-color: white;
     border-radius: 10px;
