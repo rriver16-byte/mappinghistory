@@ -1,4 +1,4 @@
-
+//Code inspired by tutorial from the course 50 Projects in 50 Days - HTML, CSS, and JavaScript by Brad Traversy and Florin Pop, adapted for class//
 
 /*Initial variables:
 the variable quiz will not change as this is fixed for every user.
