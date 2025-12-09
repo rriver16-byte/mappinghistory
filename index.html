@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <link rel="quizstyle" href="quizstyle.css">
+        <link rel="apistyle" href="apistyle.css">
     <title>Mapping History</title>
 
     </head>
@@ -32,7 +34,36 @@ Join us on a tour of some of New York City’s major landmarks that (perhaps) yo
 </div>
 
         
-<h2>Quiz</h2>         
+<h2>Quiz</h2>
+    <div class="quizcontainer" id="quiz">
+        <div class="quizheader">
+            <h2 id="question">Answer this</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">A</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">B</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">C</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">D</label>
+                    </li>
+                </ul>    
+            </div>
+                <button id="submitquiz">
+            Enter
+            </button>
+        
+    </div>
+<script src="quizscript.js"></script>
+        
  <!-- Maya's API -->       
  <div class="apicontainer" id="api">
         <div class="apiheader">
