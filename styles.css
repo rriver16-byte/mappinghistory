@@ -29,8 +29,8 @@ nav {
 }
 .grid-box {
     display: flex; justify-content:space-around;
-    height: auto;
-    width: 50px; 
+    height: 70px;
+    width: auto; 
 }
 
 .content-box {
@@ -58,7 +58,7 @@ text-align: center; font-weight: bold;
 .landmark-image { 
 justify-content: center; width: auto;
 height: 300px; margin: 20px;
-display: flex;
+display: flex; align-content: center;
 }
 .location{
     text-align-last: center;display: block;
