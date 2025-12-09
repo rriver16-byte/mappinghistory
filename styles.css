@@ -39,12 +39,6 @@ nav {
     margin: 40px; align-content: center;
     display: flex;
 }
-.quiz-title {
-background-color:#57ac8fd6;
-color: white; text-align: center; 
-margin: 20px; justify-content: center;
-padding: 10px; font-weight: bold;
-}
 
 .landmark-quote{
 text-align: center; font-weight: bold; 
@@ -100,9 +94,6 @@ text-align: left; height: auto;
 
 /* CSS for JavaScript elements below */
 
-* {
-    box-sizing: border-box;
-}
 
 .grid-box-js {
     display: flex; justify-content:space-around;
