@@ -60,9 +60,9 @@ const quizData = [
 ];
 
 
-/*Function to display the current question and capture user input
-function loadQuiz sets up the way the quiz will execute. the loadQuiz is based on the position of the array. the answer starts with  with the options property of the question displayed. the .push method captures all of the answers given. then the if...else conditional tells the program how to keep moving through each index item (question) and when to stop and show results.
-
+/*Function to display the current question
+function loadQuiz sets up the way the quiz will execute. the loadQuiz is based on the position of the array. 
+the answer starts with  with the options property of the question displayed. 
 */
 loadQuiz();
 
